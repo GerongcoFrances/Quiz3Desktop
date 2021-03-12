@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 3</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            color: #737491;
+        }
+
+        .Suisei{/*upper page*/
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .Roboco{
+            text-align: center;
+            flex: 25%;
+            width: 100%;
+            padding-top: 250px;
+        }
+
+        .container{/*upper page 2*/
+            display:flex;
+            flex-wrap:wrap;
+            background-color: rgba(118,109,244,0.08);
+        }
+
+        .Sora{
+            flex: 50%;
+            width: 100%;
+            padding: 75px 25px;
+        }
+
+        .Miko{
+            flex:45%;
+            text-align:center;
+            padding: 25px;
+            width: 100%;
+        }
+
+        .Azki{
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        font-size: 20px;
+        }
+        /*first half*/
+        .Fubuki{/*container*/
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            font-size: 10px;
+            width: 100%;
+        }
+        .Fubuki p{
+            padding-top: 0px;
+            font-size: 20px;
+        }
+
+        .Akirose{/*1st img*/
+            padding: 10px;
+            flex: 30%;
+        }
+        .Akirose img{
+            width: 100%;
+        }
+        
+        .Haato{/*2nd img*/
+            padding: 10px;
+            flex: 30%;
+        }
+        .Haato img{
+            width: 100%;
+        }
+
+        .Mel{/*3rd img*/
+            padding: 10px;
+            flex: 30%;
+        }
+        .Mel img{
+            width: 100%;
+        }
+
+        /*second half*/
+        .Matsuri{/*container*/
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            font-size: 10px;
+            width:100%
+        }
+        .Matsuri p{
+            padding-top: 0px;
+            font-size: 20px;
+        }
+        .Ayame{/*4th img*/
+            padding: 10px;
+            flex: 30%;
+        }
+        .Ayame img{
+            width: 100%;
+        }
+
+        .Shion{/*5th img*/
+            padding: 10px;
+            flex: 30%;
+        }
+        .Shion img{
+            width: 100%;
+        }
+        
+        .Subaru{/*6th img*/
+            padding: 10px;
+            flex: 30%;
+        }
+        .Subaru img{
+            width: 100%;
+        }
+        .Choco{/*bottom page*/
+            text-align: center;
+            background-color: rgba(118,109,244,0.08);
+            padding: 75px 50px;
+        }
+        .Aqua{
+            text-align: center;
+        }
+        .Marine{
+            padding: 20px 50px;
+        }
+
+        @media only screen and (max-width: 320px){
+
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .Suisei{
+                padding: 4px 0px;
+                text-align: center;
+                font-size: 15px;
+            }
+            .Suisei .Roboco{
+                text-align: center;
+                padding-bottom: 15px;
+                padding-top: 55px;
+            }
+            .Suisei img{
+                padding: 45px 0px;
+                width: 100%;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .Suisei .Sora{
+                padding: 45px 0px;
+                width: 100%;
+                background-color: rgb(243,244,255);
+
+            }
+            .Suisei .Miko{
+                padding: 5px 0px;
+                width: 100%;
+                background-color: rgb(243,244,255);
+                font-size: 10px;
+                padding-bottom: 45px;
+            }
+            .Suisei .Miko img{
+                padding: 0px 140px;
+                padding-top: 25px;
+                padding-bottom: 10px;
+                bottom: 15px;
+                background-color: rgb(243,244,255);
+                width: 100%;
+            }
+
+            .Fubuki p{
+                font-size: 12px;
+            }
+            .Fubuki img{
+                padding-top: 25px;
+                width: 280px;
+                padding-bottom: 5px;
+            }
+            .Matsuri p {
+                font-size: 12px;
+            }
+            .Matsuri img{
+                padding-top: 25px;
+                width: 280px;
+                padding-bottom: 5px;
+            }
+            .Choco{
+                padding: 35px;
+                background-color: rgb(243, 244, 255);
+                font-size: 13px;
+            }
+            .Aqua{
+                padding: 15px;
+                font-size: 13px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="Suisei">
+        <div class="Roboco">
+            <h1>Hey I'm Alex</h1>
+            <p color:#737491;>Graphic Designer</p>
+        </div>
+        <div class="Marine">
+            <img src="img/illustration 01.svg">
+        </div>
+    <div>
+        <div class="container">
+            <div class="Sora">
+                <img src="img/illustration 02.svg">
+            </div>
+            <div class="Miko">
+                <h1>What I Do Best</h1>
+                <img src="img/01.svg">
+                <h3>Creative Illustrations</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimmos qui blanditiis voluptatum deleniti atque.</p>
+                <img src="img/02.svg">
+                <h3>Graphic Identity and Branding</h3>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia occaecati cupiditate non provident.</p>
+                <img src="img/03.svg">
+                <h3>Graphic Packaging Design</h3>
+                <p>Duis aute irure in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        </div>
+        
+        <div class="Azki">
+                <h2>My Portfolio</h2>
+                <p color:#737491;>Most recent project I have completed</p>
+            </div>
+            
+        <div class="Matsuri">
+            <div class="Akirose">
+                <img src="img/01.jpg">
+                <h2 color:#4a4b65;>Apologetic Robot Holding Flowers</h2>
+                <p color:#737491;>Branding</p>
+            </div>
+            <div class="Haato">
+                <img src="img/02.jpg">
+                <h2 color:#4a4b65;>Woman Walking Her Dog</h2>
+                <p color:#737491;>Illustrations</p>
+            </div>
+            <div class="Mel">
+                <img src="img/03.jpg">
+                <h2 color:#4a4b65;>Oil Bottle Branding</h2>
+                <p color:#737491;>Branding</p>
+            </div>
+        </div>
+        <div class="Fubuki">
+            <div class="Ayame">
+                <img src="img/04.jpg">
+                <h2 color:#4a4b65;>Smiling Woman</h2>
+                <p color:#737491;>Illustrations</p>
+            </div>
+            <div class="Shion">
+                <img src="img/05.jpg">
+                <h2 color:#4a4b65;>Drink Can Design</h2>
+                <p color:#737491;>Packaging</p>
+            </div>
+            <div class="Subaru">
+                <img src="img/06.jpg">
+                <h2>I Love You Hand Gesture</h2>
+                <p color:#737491;>Illustrations</p>
+            </div>
+
+        </div>
+    <div class="Choco">
+        <h2>Let's Talk!</h2>
+        <p>@twitter @instagram @pinterest</p>
+    </div>
+    <div class="Aqua">
+        <p>©All Rights Reserved</p>
+    </div>
+
+</div>
+</body>
+</html>
+<!--The classes are still Hololive related with Gen 1,2,3-->
+<!--Have the width of the website to 320 or else it will break-->
